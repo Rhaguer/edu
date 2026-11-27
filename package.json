@@ -1,0 +1,22 @@
+{
+  "name": "eduandes-ai-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EduAndes AI (Chile-Ecuador · ODS 4) — Despliegue completo 100% nativo para Netlify (Functions v2 + Blobs + CDN)",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/verify-build.mjs",
+    "dev": "netlify dev",
+    "dev:local": "node scripts/local-server.mjs",
+    "test": "node tests/test-e2e-netlify.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "@noble/hashes": "1.7.1",
+    "jszip": "^3.10.1",
+    "unpdf": "^0.12.1"
+  }
+}

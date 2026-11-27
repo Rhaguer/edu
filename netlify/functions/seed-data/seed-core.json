@@ -1,0 +1,558 @@
+{
+  "courses": [
+    {
+      "id": "7475ac43-950a-42db-95f8-3dda704aec31",
+      "title": "Matemáticas",
+      "code": "EDU2026MAT"
+    },
+    {
+      "id": "0aabc68a-ad4f-479d-9b72-d06ae7e74d30",
+      "title": "Informática",
+      "code": "EDU2026INF"
+    },
+    {
+      "id": "e8a7c57c-51af-41b6-9407-e72ffc99807a",
+      "title": "Inteligencia Artificial",
+      "code": "EDU2026IA"
+    }
+  ],
+  "units": [
+    {
+      "id": "db8eae3e-8d0d-452c-9765-769658ac18ca",
+      "course_id": "7475ac43-950a-42db-95f8-3dda704aec31",
+      "title": "Matemáticas",
+      "position": 1,
+      "objectives": "Estudio de los fundamentos del cálculo de probabilidades, eventos aleatorios, combinatoria y su aplicación práctica en problemas clásicos y juegos de azar a partir de material documental en español."
+    },
+    {
+      "id": "366ca514-f353-4675-a727-f9a7651a5713",
+      "course_id": "0aabc68a-ad4f-479d-9b72-d06ae7e74d30",
+      "title": "Informática",
+      "position": 1,
+      "objectives": "Implementación de controles de seguridad de la información según la norma ISO/IEC 27001 con Microsoft Purview, junto con el análisis de sistemas de autenticación, autorización e identidad digital en entornos web distribuidos."
+    },
+    {
+      "id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "course_id": "e8a7c57c-51af-41b6-9407-e72ffc99807a",
+      "title": "Inteligencia Artificial",
+      "position": 1,
+      "objectives": "Cobertura integral de Inteligencia Artificial: aprendizaje automático y clasificación de señales, aprendizaje no supervisado en ciencia de datos, redes neuronales en Python, procesamiento del lenguaje natural y chatbots, visión artificial, sistemas expertos basados en reglas e IA generativa con modelos extensos de lenguaje (LLM)."
+    }
+  ],
+  "materials": [
+    {
+      "id": "47325bca-d065-40e7-91cc-f1ac10fffce5",
+      "unit_id": "db8eae3e-8d0d-452c-9765-769658ac18ca",
+      "filename": "06_Probabilidad.pdf",
+      "kind": "pdf",
+      "sha256": "e074d7f935e7d7106c398120754263d68f8f99cfb82dda38f2b5ce91f3178927",
+      "page_count": 88,
+      "created_at": "2026-11-27T03:41:23.689143+00:00",
+      "storage_name": "47325bca-d065-40e7-91cc-f1ac10fffce5.pdf"
+    },
+    {
+      "id": "c53fa9ac-ab60-448e-8b60-657d194ed830",
+      "unit_id": "366ca514-f353-4675-a727-f9a7651a5713",
+      "filename": "09_Ciberseguridad.pdf",
+      "kind": "pdf",
+      "sha256": "83572578a61bfb11300a5a4def9e44cd718245c6f448834df560f2e607c4a5de",
+      "page_count": 84,
+      "created_at": "2026-11-27T03:41:25.064270+00:00",
+      "storage_name": "c53fa9ac-ab60-448e-8b60-657d194ed830.pdf"
+    },
+    {
+      "id": "407b5233-ff0b-435f-9c89-e033d910139f",
+      "unit_id": "366ca514-f353-4675-a727-f9a7651a5713",
+      "filename": "10_Desarrollo_Web.pdf",
+      "kind": "pdf",
+      "sha256": "32bbd0d25d135dbee16189a0db71c172f253e33fda726157ced31b5b983fad0c",
+      "page_count": 61,
+      "created_at": "2026-11-27T03:41:27.949634+00:00",
+      "storage_name": "407b5233-ff0b-435f-9c89-e033d910139f.pdf"
+    },
+    {
+      "id": "560ee3b8-7e85-4f88-b7c6-abb68e5e2a7c",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "02_Machine_Learning.pdf",
+      "kind": "pdf",
+      "sha256": "70bc07a39e1bda90b9e11cf1051b39967f3b22caf07f46e824b07988cb89da1a",
+      "page_count": 39,
+      "created_at": "2026-11-27T03:41:29.805954+00:00",
+      "storage_name": "560ee3b8-7e85-4f88-b7c6-abb68e5e2a7c.pdf"
+    },
+    {
+      "id": "81b9b19c-af3f-48d5-acdd-b99aef4854d9",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "04_Aprendizaje_No_Supervisado.pdf",
+      "kind": "pdf",
+      "sha256": "fefa57c803fde93f002996c2d9f73cd19f531df459957367f9cfd501e93c3490",
+      "page_count": 70,
+      "created_at": "2026-11-27T03:41:35.283632+00:00",
+      "storage_name": "81b9b19c-af3f-48d5-acdd-b99aef4854d9.pdf"
+    },
+    {
+      "id": "788e8ff2-1fa8-4412-b507-abad72b305c3",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "05_Redes_Neuronales.pdf",
+      "kind": "pdf",
+      "sha256": "9e89e49f10c3931cb1656721caad31526a3caa4e9315fcab6a782a0cc27d1de5",
+      "page_count": 64,
+      "created_at": "2026-11-27T03:41:37.709860+00:00",
+      "storage_name": "788e8ff2-1fa8-4412-b507-abad72b305c3.pdf"
+    },
+    {
+      "id": "437b7921-be30-4bfb-9a2a-b43b051d3742",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "07_Procesamiento_Lenguaje_Natural.pdf",
+      "kind": "pdf",
+      "sha256": "58c4862e700d934fd384e349e981f894f3a2d00a7de234fa06d77ade1d5149b2",
+      "page_count": 68,
+      "created_at": "2026-11-27T03:41:39.739132+00:00",
+      "storage_name": "437b7921-be30-4bfb-9a2a-b43b051d3742.pdf"
+    },
+    {
+      "id": "95300efb-4115-4560-ae2a-d65abed7e7ac",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "08_Vision_Artificial.pdf",
+      "kind": "pdf",
+      "sha256": "4fc8379b45b33e178e179dabe3d62b2216ea201c3f1f96b9d9b7a69147b5f453",
+      "page_count": 94,
+      "created_at": "2026-11-27T03:41:49.977279+00:00",
+      "storage_name": "95300efb-4115-4560-ae2a-d65abed7e7ac.pdf"
+    },
+    {
+      "id": "3935283f-79f3-4858-9468-fc743a5e9b05",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "09_Sistemas_Expertos.pdf",
+      "kind": "pdf",
+      "sha256": "ae9c36c006b8fecf0fb9c854eb3d323afb9441ec5815fe25a89d23ed04b4bbcc",
+      "page_count": 68,
+      "created_at": "2026-11-27T03:41:51.197554+00:00",
+      "storage_name": "3935283f-79f3-4858-9468-fc743a5e9b05.pdf"
+    },
+    {
+      "id": "ad7aa0a5-80fc-4e57-937d-17971b95a57f",
+      "unit_id": "db75b109-c7c8-4588-b329-c6278db67fae",
+      "filename": "10_IA_Generativa.pdf",
+      "kind": "pdf",
+      "sha256": "1906d5d2922fb138ab9028c96cb52c7409c8da50ffe77d84c7391219ee36d652",
+      "page_count": 95,
+      "created_at": "2026-11-27T03:41:55.384124+00:00",
+      "storage_name": "ad7aa0a5-80fc-4e57-937d-17971b95a57f.pdf"
+    }
+  ],
+  "students": [
+    {
+      "id": "c7e7fdae-de43-4abd-b9f7-d4d8d4bbb2b2",
+      "name": "IGNACIO HAGUER",
+      "goals": "todo",
+      "presentation": "visual",
+      "created_at": "2026-11-26T02:54:07.491299+00:00",
+      "updated_at": "2026-11-27T02:11:26.366431+00:00",
+      "owner_email": null
+    },
+    {
+      "id": "bc139111-9d03-4fd7-ab88-417c57d59d2a",
+      "name": "Estudiante Demo",
+      "goals": "Aprender practicando con EduAndes AI",
+      "presentation": "auto",
+      "created_at": "2026-11-27T04:34:34.122435+00:00",
+      "updated_at": "2026-11-27T04:34:34.122435+00:00",
+      "owner_email": "estudiante@ecuachile.cl"
+    }
+  ],
+  "enrollments": [
+    {
+      "student_id": "c7e7fdae-de43-4abd-b9f7-d4d8d4bbb2b2",
+      "course_id": "7475ac43-950a-42db-95f8-3dda704aec31",
+      "created_at": "2026-11-27T03:41:05Z"
+    },
+    {
+      "student_id": "c7e7fdae-de43-4abd-b9f7-d4d8d4bbb2b2",
+      "course_id": "0aabc68a-ad4f-479d-9b72-d06ae7e74d30",
+      "created_at": "2026-11-27T03:41:05Z"
+    },
+    {
+      "student_id": "c7e7fdae-de43-4abd-b9f7-d4d8d4bbb2b2",
+      "course_id": "e8a7c57c-51af-41b6-9407-e72ffc99807a",
+      "created_at": "2026-11-27T03:41:05Z"
+    },
+    {
+      "student_id": "bc139111-9d03-4fd7-ab88-417c57d59d2a",
+      "course_id": "0aabc68a-ad4f-479d-9b72-d06ae7e74d30",
+      "created_at": "2026-11-27T04:34:34.122435+00:00"
+    },
+    {
+      "student_id": "bc139111-9d03-4fd7-ab88-417c57d59d2a",
+      "course_id": "7475ac43-950a-42db-95f8-3dda704aec31",
+      "created_at": "2026-11-27T04:34:34.122435+00:00"
+    },
+    {
+      "student_id": "bc139111-9d03-4fd7-ab88-417c57d59d2a",
+      "course_id": "e8a7c57c-51af-41b6-9407-e72ffc99807a",
+      "created_at": "2026-11-27T04:34:34.122435+00:00"
+    }
+  ],
+  "admin_kv": {
+    "academic": {
+      "periods": [
+        {
+          "id": "per-2026",
+          "name": "Año Lectivo 2026 (CL-EC)",
+          "active": true
+        },
+        {
+          "id": "per-2025",
+          "name": "Año Lectivo 2025",
+          "active": false
+        }
+      ],
+      "levels": [
+        "Educación Básica",
+        "Educación Media / Bachillerato",
+        "Educación Superior"
+      ],
+      "courses": [
+        {
+          "id": "7475ac43-950a-42db-95f8-3dda704aec31",
+          "name": "EDU2026MAT · Matemáticas",
+          "level": "Educación Media / Superior",
+          "teacher": "docente@ecuachile.cl",
+          "students": 1,
+          "tutor": "Tutor de Matemáticas"
+        },
+        {
+          "id": "0aabc68a-ad4f-479d-9b72-d06ae7e74d30",
+          "name": "EDU2026INF · Informática",
+          "level": "Educación Superior",
+          "teacher": "docente@ecuachile.cl",
+          "students": 1,
+          "tutor": "Preparador de Evaluaciones"
+        },
+        {
+          "id": "e8a7c57c-51af-41b6-9407-e72ffc99807a",
+          "name": "EDU2026IA · Inteligencia Artificial",
+          "level": "Educación Superior",
+          "teacher": "docente@ecuachile.cl",
+          "students": 1,
+          "tutor": "Tutor de Inteligencia Artificial"
+        }
+      ],
+      "modules": [
+        {
+          "id": "mod-math",
+          "name": "Tutor de Matemáticas",
+          "level": "Básica y Media",
+          "enabled": true
+        },
+        {
+          "id": "mod-write",
+          "name": "Asistente de Redacción",
+          "level": "Básica, Media y Superior",
+          "enabled": true
+        },
+        {
+          "id": "mod-eval",
+          "name": "Preparador de Evaluaciones",
+          "level": "Media y Superior",
+          "enabled": true
+        },
+        {
+          "id": "mod-code",
+          "name": "Laboratorio de Pensamiento Computacional",
+          "level": "Superior",
+          "enabled": false
+        }
+      ]
+    },
+    "ai_governance": {
+      "models": {
+        "fast_chat": "llama-3.1-8b-instant",
+        "exam_generation": "llama-3.3-70b-versatile",
+        "document_analysis": "us.amazon.nova-lite-v1:0",
+        "fallback_provider": "Amazon Bedrock (us-east-1)",
+        "api_key_masked": "No configurada"
+      },
+      "prompts": {
+        "version": "v2.4-socratico",
+        "socratic_mode": true,
+        "age_adaptation": "Media (13-17 años)",
+        "system_prompt": "Eres un tutor pedagógico de EduAndes AI alineado al ODS 4. Aplica el método socrático: guía al estudiante con preguntas y pistas basadas exclusivamente en el material curricular verificado, sin entregar la respuesta final directa."
+      },
+      "rate_limits": {
+        "messages_per_day_student": 60,
+        "tokens_per_day_user": 45000,
+        "max_pdf_mb": 8,
+        "monthly_institution_budget_usd": 120
+      },
+      "guardrails": {
+        "content_moderation": true,
+        "prompt_injection_shield": true,
+        "early_alert_wellness": true,
+        "wellness_email": "orientacion@ecuachile.cl",
+        "exam_mode_enabled": false,
+        "exam_mode_window": "08:00 - 11:30"
+      },
+      "early_alerts": [
+        {
+          "id": "al-101",
+          "date": "Hoy 10:14",
+          "course": "Lengua y Literatura 8° Básico",
+          "category": "Acoso / Bullying",
+          "severity": "Alta",
+          "status": "Derivada a Orientación"
+        },
+        {
+          "id": "al-102",
+          "date": "Ayer 16:40",
+          "course": "Matemáticas 2° Medio A",
+          "category": "Crisis / Ansiedad",
+          "severity": "Media",
+          "status": "En seguimiento"
+        }
+      ]
+    },
+    "licensing": {
+      "plan": "Institucional",
+      "seats_used": 94,
+      "seats_total": 250,
+      "valid_until": "2027-03-31",
+      "feature_flags": [
+        {
+          "id": "ff_socratic_v2",
+          "name": "Tutor Socrático v2 (Beta)",
+          "enabled": true,
+          "scope": "Toda la institución"
+        },
+        {
+          "id": "ff_voice_tts",
+          "name": "Lectura en voz alta inclusiva (TTS)",
+          "enabled": true,
+          "scope": "Toda la institución"
+        },
+        {
+          "id": "ff_bedrock_fallback",
+          "name": "Failover automático a Amazon Bedrock",
+          "enabled": true,
+          "scope": "Infraestructura"
+        },
+        {
+          "id": "ff_parent_portal",
+          "name": "Portal de apoderados y consentimientos",
+          "enabled": false,
+          "scope": "Grupo piloto"
+        }
+      ]
+    },
+    "rag_docs": {
+      "documents": [
+        {
+          "id": "47325bca-d065-40e7-91cc-f1ac10fffce5",
+          "title": "06_Probabilidad.pdf",
+          "subject": "EDU2026MAT · Matemáticas",
+          "kind": "Material oficial PDF",
+          "pages": 88,
+          "status": "Indexado"
+        },
+        {
+          "id": "c53fa9ac-ab60-448e-8b60-657d194ed830",
+          "title": "09_Ciberseguridad.pdf",
+          "subject": "EDU2026INF · Informática",
+          "kind": "Material oficial PDF",
+          "pages": 84,
+          "status": "Indexado"
+        },
+        {
+          "id": "407b5233-ff0b-435f-9c89-e033d910139f",
+          "title": "10_Desarrollo_Web.pdf",
+          "subject": "EDU2026INF · Informática",
+          "kind": "Material oficial PDF",
+          "pages": 61,
+          "status": "Indexado"
+        },
+        {
+          "id": "560ee3b8-7e85-4f88-b7c6-abb68e5e2a7c",
+          "title": "02_Machine_Learning.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 39,
+          "status": "Indexado"
+        },
+        {
+          "id": "81b9b19c-af3f-48d5-acdd-b99aef4854d9",
+          "title": "04_Aprendizaje_No_Supervisado.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 70,
+          "status": "Indexado"
+        },
+        {
+          "id": "788e8ff2-1fa8-4412-b507-abad72b305c3",
+          "title": "05_Redes_Neuronales.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 64,
+          "status": "Indexado"
+        },
+        {
+          "id": "437b7921-be30-4bfb-9a2a-b43b051d3742",
+          "title": "07_Procesamiento_Lenguaje_Natural.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 68,
+          "status": "Indexado"
+        },
+        {
+          "id": "95300efb-4115-4560-ae2a-d65abed7e7ac",
+          "title": "08_Vision_Artificial.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 94,
+          "status": "Indexado"
+        },
+        {
+          "id": "3935283f-79f3-4858-9468-fc743a5e9b05",
+          "title": "09_Sistemas_Expertos.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 68,
+          "status": "Indexado"
+        },
+        {
+          "id": "ad7aa0a5-80fc-4e57-937d-17971b95a57f",
+          "title": "10_IA_Generativa.pdf",
+          "subject": "EDU2026IA · Inteligencia Artificial",
+          "kind": "Material oficial PDF",
+          "pages": 95,
+          "status": "Indexado"
+        }
+      ]
+    },
+    "rbac": {
+      "permissions": [
+        {
+          "id": "create_assistants",
+          "label": "Crear asistentes propios",
+          "Estudiante": false,
+          "Docente": true,
+          "Directivo / Orientador": true,
+          "Admin Académico": true,
+          "Administrador": true
+        },
+        {
+          "id": "upload_files",
+          "label": "Subir archivos y PDFs",
+          "Estudiante": false,
+          "Docente": true,
+          "Directivo / Orientador": true,
+          "Admin Académico": true,
+          "Administrador": true
+        },
+        {
+          "id": "chat_tutor",
+          "label": "Chatear con tutores IA",
+          "Estudiante": true,
+          "Docente": true,
+          "Directivo / Orientador": true,
+          "Admin Académico": true,
+          "Administrador": true
+        },
+        {
+          "id": "publish_exams",
+          "label": "Publicar evaluaciones",
+          "Estudiante": false,
+          "Docente": true,
+          "Directivo / Orientador": false,
+          "Administrador": true
+        },
+        {
+          "id": "view_early_alerts",
+          "label": "Ver alertas tempranas",
+          "Estudiante": false,
+          "Docente": false,
+          "Directivo / Orientador": true,
+          "Administrador": true
+        },
+        {
+          "id": "manage_prompts",
+          "label": "Editar System Prompts",
+          "Estudiante": false,
+          "Docente": false,
+          "Directivo / Orientador": false,
+          "Admin Académico": true,
+          "Administrador": true
+        },
+        {
+          "id": "manage_api_infra",
+          "label": "Gestionar APIs, costos e infra",
+          "Estudiante": false,
+          "Docente": false,
+          "Directivo / Orientador": false,
+          "Admin Académico": false,
+          "Administrador": true
+        },
+        {
+          "id": "read_private_chats",
+          "label": "Acceso excepcional a chats (con motivo)",
+          "Estudiante": false,
+          "Docente": false,
+          "Directivo / Orientador": true,
+          "Admin Académico": false,
+          "Administrador": true
+        }
+      ]
+    },
+    "security_privacy": {
+      "anonymize_pii": true,
+      "strip_rut_dni": true,
+      "chat_retention_days": 90,
+      "guardian_consent_required": true,
+      "guardian_consents_pct": 94,
+      "admin_separation_enforced": true,
+      "chat_privacy_require_reason": true,
+      "backup_schedule": "Diario 03:00 UTC",
+      "backups": []
+    },
+    "site_config": {
+      "brand_name": "EduAndes AI · Red Chile–Ecuador",
+      "primary_color": "#0039a6",
+      "accent_color": "#ffd100",
+      "domain": "eduandesai.netlify.app",
+      "welcome_text": "Plataforma educativa binacional con IA verificada por citas literales.",
+      "terms_url": "#/terminos",
+      "privacy_url": "#/privacidad",
+      "maintenance_mode": false,
+      "banner_active": false,
+      "banner_text": "",
+      "email_template_alert": "Estimado equipo de Orientación: se detectó una señal temprana que requiere revisión."
+    },
+    "tickets": {
+      "items": [
+        {
+          "id": "tck-204",
+          "from": "docente@ecuachile.cl",
+          "type": "Feedback IA",
+          "subject": "Cita de página 4 en guía de Ciencias muy extensa",
+          "status": "Abierto",
+          "priority": "Media"
+        },
+        {
+          "id": "tck-203",
+          "from": "estudiante@ecuachile.cl",
+          "type": "Fallo técnico",
+          "subject": "Demora en carga de práctica en móvil",
+          "status": "Resuelto",
+          "priority": "Baja"
+        }
+      ]
+    },
+    "users": {
+      "sso_providers": {
+        "google_workspace": true,
+        "microsoft_365": true,
+        "saml_oauth": false,
+        "mfa_required_admins_teachers": true
+      }
+    }
+  }
+}
